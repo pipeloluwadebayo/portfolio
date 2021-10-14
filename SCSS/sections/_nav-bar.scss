@@ -2,15 +2,24 @@
 @use'../components/mixins' as * ;
 
 .menu{
-   @include gradient
-}
+   @include gradient;
 
-li{
+   .btn-rounded{
+    @include media-breakpoint-down(sm){
+        display:none;
+    }
+   }
+
+   li{
     padding: 0 0.7rem;
 
+
     a{
-        color: $white !important;
-        text-transform:capitalize;
-        font-weight: 600;
+        
+            color: $white !important;
+            text-transform:capitalize;
+            font-weight: 600;
+        
     }
+   }
 }
