@@ -1,0 +1,27 @@
+{
+  "name": "file",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch SCSS:assets/css"
+  },
+  "keywords": [
+    "Bootsrap\u001b[D\u001b[D\u001b[Dt\u001b[Ctrap",
+    "portfolio",
+    "sass",
+    "bootstrap5"
+  ],
+  "author": "Pipeloluwa Adebayo",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "auto-prefixer": "^0.4.2",
+    "autoprefixer": "^10.3.7",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^9.0.1"
+  }
+}
