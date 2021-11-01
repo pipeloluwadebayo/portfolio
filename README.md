@@ -1,4 +1,4 @@
 # Pipeloluwa Adebayo's Portfolio
 
 VIEW SITE AT
-pipeloluwadebayo.netlify.app
+https://pipeloluwadebayo.github.io/portfolio/
