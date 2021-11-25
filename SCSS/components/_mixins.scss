@@ -2,10 +2,13 @@
 
 //gradient mixin
 
-@mixin gradient {
-background: linear-gradient(to right,rgba($primary,0.95), rgba($secondary,0.95));
-}
+// @mixin gradient {
+// background: linear-gradient(to right,rgba($primary,0.95), rgba($secondary,0.95));
+// }
 
+@mixin gradient {
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
 @mixin absoluteCenter{
     position: absolute;
     top: 50%;
