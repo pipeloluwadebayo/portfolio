@@ -283,11 +283,8 @@ emailjs.init("user_epzhpznDjBPRijZrHnmKt");
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
             <h4 class="display-3--title mb-5">contact form</h4>
-            <form id="contact-form" action="mailto:pipeloluwapraise@gmail.com" method="post" enctype="multipart/form-data">
-              <div class="row">
-                <div class="col-lg-12 mb-3">
-                  <input type="hidden" name="contact_number">
-                  </div>
+            <form action="mailto:pipeloluwapraise@gmail.com" method="post" enctype="multipart/form-data">
+
                   <div class="col-lg-12 mb-3">
                   <input type="text" placeholder="Name" id="inputLastName"
                     class="shadow form-control form-control-lg">
@@ -302,10 +299,10 @@ emailjs.init("user_epzhpznDjBPRijZrHnmKt");
                 </div>
                 <div class="text-center d-grid mt-1">
 
-                  <a href="mailto:pipeloluwapraise@gmail.com">
-                  <button type="submit" value="Send email" class="btn btn-primary rounded-pill pt-3 pb-3"
+                  <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3"
                     id="submit_button">
-                    
+                    <a href="mailto:pipeloluwapraise@gmail.com"></a>
+                    submit
                      
                       <i class="fas fa-paper-plane"></i>
                   </button>
