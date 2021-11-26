@@ -37,9 +37,9 @@ emailjs.init("user_epzhpznDjBPRijZrHnmKt");
             // generate a five digit number for the contact_number variable
             this.contact_number.value = Math.random() * 100000 | 0;
             // these IDs from the previous steps
-            emailjs.sendForm("service_86fph6v", 'contact-form', this)
+            emailjs.sendForm('contact_service', 'contact_form', this)
                 .then(function() {
-                    console.log('SUCCESS!');
+                    alert('SUCCESS!');
                 }, function(error) {
                     console.log('FAILED...', error);
                 });
@@ -286,15 +286,15 @@ emailjs.init("user_epzhpznDjBPRijZrHnmKt");
             <form id="contact-form">
               <input type="hidden" name="contact_number">
                   <div class="col-lg-12 mb-3">
-                  <input type="text" placeholder="Name" id="inputName"
+                  <input type="text" placeholder="Name" id="inputName" name="user_name"
                     class="shadow form-control form-control-lg">
                 </div>
                 <div class="col-lg-12 mb-3">
-                  <input type="email" placeholder="email address" id="inputEmail"
+                  <input type="email" placeholder="email address" id="inputEmail" name="user_email"
                     class="shadow form-control form-control-lg">
                 </div>
                 <div class="col-lg-12 mb-3">
-                  <textarea name="message" placeholder="message" id="message" rows="8"
+                  <textarea name="message" placeholder="message" id="message" rows="8" name="message"
                     class="shadow form-control form-control-lg"></textarea>
                 </div>
                 <div class="text-center d-grid mt-1">
