@@ -11543,4 +11543,16 @@ textarea.form-control-lg {
   filter: grayscale(120);
 }
 
+.dropdown-menu{
+  background-color:#00d4ff;
+}
+.drop{
+  color: #00d4ff;
+  background-color:#00d4ff;
+  
+}
+dropdown-menu a:hover{
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
