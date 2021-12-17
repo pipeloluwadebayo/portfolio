@@ -22,4 +22,10 @@
         
     }
    }
+   .dropdown-menu{
+       background-color: $new;
+       .drop{
+           color: $white;
+       }
+   }
 }
