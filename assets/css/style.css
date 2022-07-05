@@ -11200,6 +11200,7 @@ textarea.form-control-lg {
 }
 
 .display-3 {
+  font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
 }
 .display-3--title {
@@ -11210,6 +11211,7 @@ textarea.form-control-lg {
   display: inline-block;
   background-image: linear-gradient(to right, #090979, #090979);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
@@ -11242,6 +11244,19 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+.menu li a:hover {
+  transform: scale(1.2);
+  transition-duration: 1000ms;
+  transition-property: all;
+  border-bottom: 1px solid currentColor;
+}
+.menu .dropdown-menu {
+  background-color: #00d4ff;
+}
+.menu .dropdown-menu .drop {
+  color: #fff;
 }
 
 .intro-section {
@@ -11352,7 +11367,7 @@ textarea.form-control-lg {
 }
 
 .portfolio {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .portfolio button {
   text-transform: capitalize;
@@ -11409,12 +11424,14 @@ textarea.form-control-lg {
 }
 
 .project {
-  margin: right 10px;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
 }
-
-.projject {
-  display: flex;
-  justify-content: center;
+.project ul {
+  list-style: none;
+}
+.project .project-img {
+  max-width: 100%;
 }
 
 .get-started {
@@ -11526,7 +11543,7 @@ textarea.form-control-lg {
 }
 
 .skills {
-  padding: 0 0 5rem 0;
+  padding: 0;
 }
 .skills__logo-box {
   max-width: 100%;
@@ -11542,17 +11559,8 @@ textarea.form-control-lg {
 .skills__logo-box img:hover {
   filter: grayscale(120);
 }
-
-.dropdown-menu{
-  background-color:#00d4ff;
-}
-.drop{
-  color: #00d4ff;
-  background-color:#00d4ff;
-  
-}
-dropdown-menu a:hover{
-  color: white;
+.skills h4 {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
