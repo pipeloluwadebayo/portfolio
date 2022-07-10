@@ -1,3 +1,3 @@
 # Pipeloluwa Adebayo's Portfolio
 
-## [Portfolio]( https://pipeloluwadebayo.github.io/portfolio/)
+## [Portfolio](https://pipeloluwadebayo.netlify.app/)
