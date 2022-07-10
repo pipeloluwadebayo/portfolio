@@ -11431,6 +11431,11 @@ textarea.form-control-lg {
   font-size: 0.8rem;
 }
 
+.projects-page {
+  margin: 3rem o;
+  margin-bottom: 5rem;
+}
+
 .project {
   font-size: 1.3rem;
   font-family: "Rubik", sans-serif;
